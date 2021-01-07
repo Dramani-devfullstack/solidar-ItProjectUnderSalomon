@@ -1,0 +1,120 @@
+*{
+   
+    box-sizing: border-box;
+   
+}
+.content{
+    
+    
+}
+.header{  
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.logo{
+    color: orange;
+    font-size: 3rem;
+}
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+
+}
+.navbar .firstBrandBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:100px ;
+}
+
+.chatBtn{
+    position: relative;
+}
+.chatNotification{
+    position: absolute;
+    top: -3px;
+    left: 15px;
+    background: red;
+    color: #ffffff;
+    border-radius: 40%;
+    font-size:15px;
+    padding: 1px;
+}
+.navbar .firstBrandBox li {
+    margin-right: 25px;
+    list-style: none;
+}
+.navbar .secondBrandBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right:100px ;
+
+     
+}
+.navbar .secondBrandBox li {
+    margin-left: 30px ;
+    list-style: none;
+} 
+
+.premiumBtn
+{
+    background-color:green;
+    border-radius: 25px;
+    border-color: green;
+    padding: 5px 20px;
+}
+
+.premiumBtn:hover {
+    background-color:green;
+    border-color: green;
+}
+
+.creditBtn
+{
+    background-color:transparent;
+    border-radius: 25px;
+    border-color: gray;
+    padding: 5px 15px;
+    margin-left: 30px;
+}
+
+.creditBtn:hover {
+    background-color:orange;
+    border-color: orange;
+}
+
+.optionalBar {
+    position: relative;
+    background: turquoise;
+    height: 25vh;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px 100px ;
+}
+
+.slideNum {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.optionalBar {
+    
+}
+
+.profilePictureAsking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
