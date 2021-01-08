@@ -4,9 +4,12 @@ import '../HeaderComponent/Header.css';
 import { Button, Navbar } from 'react-bootstrap';
 import { FaBeer, FaPlay,  } from 'react-icons/fa';
 import { BiLike } from "react-icons/bi";
-import { BsGrid, BsChat, BsEye, BsHeart, BsBell, BsThreeDots } from "react-icons/bs";
+import { BsGrid, BsChat, BsEye, BsHeart, BsBell, BsThreeDots, BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { FcFlashOn, FcGallery } from "react-icons/fc";
 import { GrClose } from "react-icons/gr";
+import { FiMinus } from "react-icons/fi";
+
+
 
 const Header = ()=>{
     
@@ -49,13 +52,13 @@ const Header = ()=>{
                                         <li href="#"><BsEye size="1.5em"/><br/>Visiteurs</li>
                                     </ul>
                                     <ul className="secondBrandBox">
-                                        <Button className="premiumBtn">Premium</Button>
+                                        <button className="premiumBtn">Premium</button>
                                         <button className="creditBtn">
                                          <span><FcFlashOn/> </span>  
                                          <span>Crédits</span>  
                                         </button>
                                         
-                                        <li href="#"><img src="../public/image/user.jpg"/></li>
+                                        <li href="#"><img src="/image/user.jpg" width="30px" height="30px"   /></li>
                                         <li href="#"><BsBell size="1.5em"/> </li>
                                         <li href="#"> <BsThreeDots size="1.5em"/></li>   
                                     </ul>             
@@ -64,16 +67,42 @@ const Header = ()=>{
                         <div className="optionalBar">
                            <span className="closeBtn"> <GrClose/></span>
                             <div className="slideNum">
-                                <span>1-</span>
-                                <span>2-</span>
-                                <span>3-</span>
+                                <span>1</span>
+                                <FiMinus size="1.5em" color="#fff" />
+                                <span>2</span>
+                                <FiMinus size="1.5em" color="#fff" />
+                                <span>3</span>
+                                <FiMinus size="1.5em" color="#fff" />
                                 <span>4</span>
                             </div>
                             <div className="profilePictureAsking">
-                                <span><FcGallery size="2.5em" /></span>
-                                <p>Salomon, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                 <button>Ajouter une photo</button>
+                                <span><FcGallery size="2.5em" color="white" /></span>
+                                <p>Salomon, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore magna aliqua. </p>
+                                 <button>Ajoute une photo</button>
                             </div>
+
+                            <div className="users">
+                            <BsChevronLeft size="1.5em"  />
+                            {/* <div className="usersProfilePicture"> */}
+                                <span id="imgProfileSpan">
+                                <span className="imgText">Ma photo ici</span>
+                                <img  id="imgProfile" src="/image/user.jpg" width="80px" height="80px"   />
+                                </span>
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                                <img src="/image/user.jpg" width="80px" height="80px"   />
+                            {/* </div> */}
+
+                            <BsChevronRight size="1.5em" />
+
+                            </div>
+
                         </div>
 
                     </div>
