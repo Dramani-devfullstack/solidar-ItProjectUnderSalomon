@@ -1,0 +1,95 @@
+.LeftSideBarContent
+{
+    position: absolute;  
+    top: 1;
+    left: 1;
+    margin-top: 25px; 
+    margin-left: 100px;
+    width: 500px;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profilPicture{
+    position: relative;
+    border: blue solid 2px ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    
+    
+}
+.profilPicture span {
+    position:absolute ;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.userNameBox{
+    display: flex;
+}
+
+
+
+.profileView {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.profileView > p {
+    margin-left: 6px;
+}
+.vl {
+    border-left: 1px solid silver;
+    height: 40px;
+    margin-left: 6px;
+  }
+
+  .profileView > p >span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  
+  .nameOfUser{
+      margin-top: 15px;
+  }
+  .settingIcon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 15px;
+  }
+
+  .profileVisibility{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 25px;
+  }
+
+  .profileParamter1{
+      display: flex;
+      flex-direction: column;
+  }
+
+  #profileParamter1Icon{
+      display: flex;
+     align-self: center;
+  }
+  .profileParamter1Span{
+      color: blue;
+  }
+
+  .premiumAdvantage{
+      margin: 30px;
+  }

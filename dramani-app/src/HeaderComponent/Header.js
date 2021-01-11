@@ -15,29 +15,7 @@ const Header = ()=>{
     
         return(
             <div className="content">
-                {/* <Navbar bg="light" className="navbar">
-                <div className="brandNotifcation">
-                    <span className="logo">TWOO </span>
-                    <Navbar.Brand href="#home"><FaPlay/><br/>Live</Navbar.Brand>
-                    
-                    <Navbar.Brand href="#home"><span className="bilike"><BiLike size="1.5em" alignSelf="center" /><br/></span>Découvrir</Navbar.Brand>
-                    
-                   
-                    <Navbar.Brand href="#home"><FaPlay/><br/>Chercher</Navbar.Brand>
-                    <Navbar.Brand href="#home"><FaPlay/><br/>Tchatter</Navbar.Brand>
-                    <Navbar.Brand href="#home"><FaPlay/><br/>Likes</Navbar.Brand>
-                    <Navbar.Brand href="#home"><FaPlay/><br/>Visiteurs</Navbar.Brand>
-                </div>
-
-                <div className="userIcon">
-                    <Navbar.Brand href="#home">Premium</Navbar.Brand>
-                    <Navbar.Brand href="#home">Crédits</Navbar.Brand>
-                    <Navbar.Brand href="#home">User Icon</Navbar.Brand>
-                    <Navbar.Brand href="#home">Cloche</Navbar.Brand>
-                    <Navbar.Brand href="#home">...</Navbar.Brand>
-                </div>
-                </Navbar> */}
-
+               
                 <div className="header">
                     <div className="navbar">
                     
@@ -46,7 +24,6 @@ const Header = ()=>{
                                         <li href="#"><FaPlay/><br/> Live</li>
                                         <li href="#"><BiLike size="1.5em"/><br/>Découvrir</li>
                                         <li href="#"><BsGrid size="1.5em"/><br/>Chercher</li>
-
                                         <li href="#" className="chatBtn"><BsChat size="1.5em"/><span className="chatNotification">6</span><br/>Tchatter</li>
                                         <li href="#"><BsHeart size="1.5em"/><br/>Likes</li>
                                         <li href="#"><BsEye size="1.5em"/><br/>Visiteurs</li>
@@ -80,10 +57,9 @@ const Header = ()=>{
                                 <p>Salomon, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br/> incididunt ut labore et dolore magna aliqua. </p>
                                  <button>Ajoute une photo</button>
                             </div>
-
+                            </div>
                             <div className="users">
                             <BsChevronLeft size="1.5em"  />
-                            {/* <div className="usersProfilePicture"> */}
                                 <span id="imgProfileSpan">
                                 <span className="imgText">Ma photo ici</span>
                                 <img  id="imgProfile" src="/image/user.jpg" width="80px" height="80px"   />
@@ -97,13 +73,10 @@ const Header = ()=>{
                                 <img src="/image/user.jpg" width="80px" height="80px"   />
                                 <img src="/image/user.jpg" width="80px" height="80px"   />
                                 <img src="/image/user.jpg" width="80px" height="80px"   />
-                            {/* </div> */}
-
                             <BsChevronRight size="1.5em" />
-
                             </div>
 
-                        </div>
+                        
 
                     </div>
 
