@@ -25,9 +25,7 @@
     color: silver;
 }
 
-.aboutUserBoxImg {
-    
-}
+
 .aboutUserBoxImg > span {
     width: 250px;
     height: 250px;
@@ -111,3 +109,63 @@
     margin: 20px;
 }
 
+
+.itemGuardVerification{
+    background-color: gainsboro;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.oneItemVerification{
+    display: flex;
+    flex-direction: row;
+}
+
+.guardIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+.iconManagement {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.itemVerificationText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px ;
+}
+
+.eachItemVerification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    
+}
+
+.eachItemVerification>button {
+    border: 3px solid blue;
+    width: 120px;
+    padding: 5px;
+    border-radius: 25px;
+    color: blue;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.itemVerificationText span:first-child {
+    color: grey;
+}
