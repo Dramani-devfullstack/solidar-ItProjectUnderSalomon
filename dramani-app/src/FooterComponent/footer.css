@@ -1,0 +1,115 @@
+.footerContent {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+}
+
+
+
+.footerIconList{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.footerIconList>button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    margin: 20px;
+}
+
+#footerIconText{
+    font-size: 1.1rem;
+    
+}
+
+.iconManagement {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.iconManagementone {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.iconManagementtwo {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.iconManagementthree {
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.iconManagementfour {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.footerInformation {
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+    bottom: 0;
+}
+
+.footerInformationText ul li{
+    list-style: none;
+}
+
+.footerInformationText ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerInformationRule ul li{
+    list-style: none;
+}
+
+.footerInformationRule ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
