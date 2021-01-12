@@ -5,7 +5,7 @@
     left: 1;
     margin-top: 25px; 
     margin-left: 100px;
-    width: 500px;
+    width: 36%;
     height: auto;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -45,12 +45,11 @@
 }
 
 .profileView > p {
-    margin-left: 6px;
+    margin: 5px;
 }
 .vl {
     border-left: 1px solid silver;
     height: 40px;
-    margin-left: 6px;
   }
 
   .profileView > p >span {

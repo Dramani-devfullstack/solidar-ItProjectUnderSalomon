@@ -5,25 +5,109 @@
     right: 0;
     margin-top: 25px; 
     margin-right: 100px;
-    width: 47.5%;
+    
+    width: 50%;
     height: auto;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 .pencilIcon {
     position: absolute;
     top: 0;
     right: 0;
     margin: 15px;
 }
-
 .aboutUserBox > h5, p {
     margin: 20px;
 }
-
 .aboutUserBox >p {
-
-    
-
+    margin: 20px;
+    color: silver;
 }
+
+.aboutUserBoxImg {
+    
+}
+.aboutUserBoxImg > span {
+    width: 250px;
+    height: 250px;
+    background-color: silver;
+    border: 1px solid silver;
+}
+.aboutUserBoxImg span:first-child {
+    margin-right: 2px;
+}
+.aboutUserBoxImg span:last-child {
+    margin-left: 3px;
+}
+.aboutUserBoxImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.aboutUserBoxImg span:first-child{
+    position: relative;
+    background-color: gray;
+   
+}
+
+.aboutUserBoxText{
+    position: absolute; 
+    display: flex;
+}
+
+
+.compatibiliClass>h5 {
+    margin: 20px;
+}
+
+.aboutUserBox button {
+    width: 80%;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px blue solid;
+    border-radius: 25px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.profileInfo>button {
+
+    width: 80%;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px blue solid;
+    border-radius: 25px;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.profileInfo>h5 {
+    margin: 20px;
+}
+
+.profileInfoBirth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+}
+
+.profileInfoBirth> div{
+    color: gray;
+    font-weight: 300;
+}
+
+#profileInfoFirstSpan{
+
+    margin-left: 10px;
+}
+
+.profileVerification>h5 {
+    text-transform: uppercase;
+    margin: 20px;
+}
+

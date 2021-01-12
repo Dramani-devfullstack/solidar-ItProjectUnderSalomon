@@ -17,7 +17,7 @@ const LeftSideBar =()=> {
                 </div>
                 <div className="userName">
                     <h5 className="nameOfUser">Vigninou dagbémabou,24</h5>
-                    <h6 className="userCity">Lokosa</h6>
+                    <h6 className="userCity">Lokossa</h6>
                     <div className="profileView">
                         <p>
                             À qui tu plais <br/>
@@ -53,13 +53,13 @@ const LeftSideBar =()=> {
                 </div>
 
                 <div className="profileParamter1">
-                    <SiPrettier id="profileParamter1Icon"    size="2em" color="green"/>
+                    <SiPrettier id="profileParamter1Icon"   size="2em" color="green"/>
                     <span>Premium</span>
                     <span className="profileParamter1Span">Abonne-toi</span>
                 </div>
 
                 <div className="profileParamter1">
-                    <FcFlashOn id="profileParamter1Icon"   size="2em" />
+                    <FcFlashOn id="profileParamter1Icon"  size="2em" />
                     <span>Crédits</span>
                     <span className="profileParamter1Span">Acheter</span>
                 </div>
