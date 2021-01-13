@@ -33,34 +33,29 @@ const Footer=()=>{
             
             <div className="footerInformation">
                 <div className="footerInformationText">
-                    <ul>
-                        <li>À propos</li>
-                        <li>Presse</li>
-                        <li>Emploi</li>
-                        <li>Equipe</li>
-                        <li>Applis et mobile</li>
-                        <li>FAQ</li>
-                        <li>Protection des données</li>
-                        <li>Sécurité</li>  
-                        <li>Blog</li>
-                        <li>Ablo-parler à de nouvelles personnes dans le monde entier</li>
-                        
-                    </ul>
+                    <div className="footerInformationTextSpan" >
+                        <span><a href="#">À propos</a></span>
+                        <span><a href="#">Presse</a></span>
+                        <span><a href="#">Emploi</a></span>
+                        <span><a href="#">Equipe</a></span>
+                        <span><a href="#">Applis et mobile</a></span>
+                        <span><a href="#">FAQ</a></span>
+                        <span><a href="#">Protection des données</a></span>
+                        <span><a href="#">Sécurité</a></span>  
+                        <span><a href="#">Blog</a></span>
+                    </div>
+                    <div><a href="#">Ablo-parler à de nouvelles personnes dans le monde entier</a></div>
                 </div>
-                <div className="footerInformationRule">
-                    <ul>
-                            <li>Conditions</li>
-                            <li>Confidentialités</li>
-                            <li>Cookies</li>
-                            <li>Code de conduites</li>
-                            <li>Facebook</li>
-                            <li>Youtube</li>
-                            <li>Twitter</li>
-                            <li>Instagram</li>
-                            <li>&copy; 2021 TWOO</li>
-                            
-                            
-                        </ul>
+                <div id="footerInformationRule">
+                    <span><a href="#">Conditions</a></span>
+                    <span><a href="#">Confidentialités</a></span>
+                    <span><a href="#">Cookies </a></span>
+                    <span><a href="#">Code de conduites</a></span>
+                    <span><a href="#">Facebook</a></span>
+                    <span><a href="#">Youtube</a></span>
+                    <span><a href="#">Twitter</a></span>
+                    <span><a href="#">Instagram</a></span>
+                    <span><a href="#">&copy; 2021 TWOO</a></span>
                 </div>
             </div>
 

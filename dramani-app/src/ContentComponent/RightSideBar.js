@@ -7,7 +7,7 @@ import { FcFlashOn, FcGallery } from "react-icons/fc";
 import { FiMinus } from "react-icons/fi";
 import { FaBirthdayCake, FaLanguage, FaHandPeace, FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import { GiStarSattelites, GiLovers, GiEnvelope } from "react-icons/gi";
-import { BsHeart, BsPhone } from "react-icons/bs";
+import { BsHeart, BsPhone, BsPlusCircle } from "react-icons/bs";
 import { BiChalkboard } from "react-icons/bi";
 import { MdWork, MdSchool } from "react-icons/md";
 import { } from "react-icons/si";
@@ -22,7 +22,7 @@ const RightSideBar =()=> {
                 <div className="aboutUserBoxImg">
                     <span>
                         <span className="aboutUserBoxText">
-                            <icon>+</icon>
+                            <BsPlusCircle size="2rem"/>
                             <span>AJOUTER</span>
                         </span>
                     </span>

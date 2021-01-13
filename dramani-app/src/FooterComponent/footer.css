@@ -2,16 +2,14 @@
     position: absolute;
     width: 80%;
     bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
-
 
 .footerIconList{
     position: absolute;
     display: flex;
-    flex-direction: row;
-   
-    
+    flex-direction: row;    
 }
 .footerIconList>button{
     background-color: black;
@@ -24,12 +22,9 @@
     height: 60px;
     margin: 20px;
 }
-
 #footerIconText{
-    font-size: 1.1rem;
-    
+    font-size: 1.1rem;    
 }
-
 .iconManagement {
     background: grey;
     display: flex;
@@ -90,26 +85,33 @@
     top: 0;
     margin-top: 100px;
     bottom: 0;
+   
 }
 
-.footerInformationText ul li{
-    list-style: none;
+.footerInformationText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    
 }
 
-.footerInformationText ul {
+.footerInformationText>div>a {
+    color: slategray;
+}
+
+.footerInformationTextSpan>span>a {
+    
+    color: slategray;
+}
+
+.footerInformationTextSpan {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
-.footerInformationRule ul li{
-    list-style: none;
-}
 
-.footerInformationRule ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+#footerInformationRule>span>a {
+    margin: 15px;
 }
