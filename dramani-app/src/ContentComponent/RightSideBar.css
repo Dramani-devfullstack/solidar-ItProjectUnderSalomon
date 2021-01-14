@@ -55,6 +55,11 @@
     display: flex;
 }
 
+.aboutUserBoxText span:last-child {
+    color: #ffffff;
+}
+
+
 
 .compatibiliClass>h5 {
     margin: 20px;

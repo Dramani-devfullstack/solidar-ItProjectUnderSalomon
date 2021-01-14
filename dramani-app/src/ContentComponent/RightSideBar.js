@@ -22,7 +22,7 @@ const RightSideBar =()=> {
                 <div className="aboutUserBoxImg">
                     <span>
                         <span className="aboutUserBoxText">
-                            <BsPlusCircle size="2rem"/>
+                            <BsPlusCircle size="2rem" color="white" />
                             <span>AJOUTER</span>
                         </span>
                     </span>
