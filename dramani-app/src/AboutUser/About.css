@@ -1,0 +1,82 @@
+.aboutUserHeader {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.aboutUserHeader span:first-child {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 5px 0px;
+    color: #ff7102;
+}
+
+.aboutUserHeader span:last-child {
+    font-size: 1rem;
+    margin: 10px 0px;
+    color: gainsboro;
+    font-weight: 600;  
+}
+
+.aboutUserContent {
+    max-width: 500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.aboutUserTitle p {
+    margin: 0;
+    text-align: center;
+}
+
+.aboutUserBoxForm input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.aboutUserBoxForm select {
+    width: 100%;
+    margin-top: 0px;
+    padding: 5px 5px;
+    background-color: gainsboro;
+}
+
+#stars {
+    color: red;
+}
+
+.aboutUserBoxSubTitle p {
+    margin: 10px 0;
+}
+
+.aboutUserBoxSubTitle span {
+    border: 2px solid grey;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: grey;
+    font-weight: 500;
+}
+
+.aboutUserBoxSubTitle span:first-of-type {
+    margin-right: 15px;
+}
+
+.aboutUserBoxBtn button {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#continuBtn {
+    width: 100%;
+    display: block;
+    background-color: #0176ff;
+    padding: 10px 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+}

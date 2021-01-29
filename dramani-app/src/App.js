@@ -5,12 +5,14 @@ import Header from './HeaderComponent/Header';
 import './App.css';
 import Content from './ContentComponent/Content';
 import Login from './LoginPage/Login'
+import About from './AboutUser/About'
 function App() {
   return (
     <div className="App">
       {/* <Header /> */}
       {/* <Content/> */}
-      <Login/>
+      {/* <Login/> */}
+      <About/>
 
     </div>
   );
