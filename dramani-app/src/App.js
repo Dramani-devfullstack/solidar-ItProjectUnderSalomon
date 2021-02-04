@@ -9,13 +9,13 @@ import About from './AboutUser/About'
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <Content/> */}
-      {/* <Login/> */}
-      <About/>
-
+      <Header /> 
+      <Content/>
+       {/* <Login/>
+      <About/> */}
     </div>
   );
 }
+
 
 export default App;

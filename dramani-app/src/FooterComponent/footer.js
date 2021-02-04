@@ -4,7 +4,9 @@ import { FaApple, FaGooglePlay, FaGooglePlusG, FaFacebookF, FaLinkedinIn, FaTwit
 const Footer=()=>{
 
     return(
-        <div className="footerContent">
+        
+        <div className="mainFooter">
+            <div className="footerContent">
 
             <div className="footerIconList">
                 <button> <FaApple size="3.5rem"/> <span>Télécharger dans <span id="footerIconText">Apple Store</span> </span></button>
@@ -29,8 +31,7 @@ const Footer=()=>{
                 <FaInstagram size="1.5rem" color="white" />
                 </div>
                 <hr/>
-            </div>
-            
+            </div>    
             <div className="footerInformation">
                 <div className="footerInformationText">
                     <div className="footerInformationTextSpan" >
@@ -59,8 +60,8 @@ const Footer=()=>{
                 </div>
             </div>
 
-        
-
+            </div>
+            
         </div>
     )
 }
