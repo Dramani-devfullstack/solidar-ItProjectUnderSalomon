@@ -59,6 +59,7 @@
     padding: 5px 15px;
     color: grey;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .aboutUserBoxSubTitle span:first-of-type {
@@ -79,4 +80,5 @@
     color: #fff;
     margin-top: 25px;
     font-weight: 500;
+    cursor: pointer;
 }

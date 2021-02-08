@@ -1,17 +1,9 @@
 import React from 'react';
-import { Component } from 'react';
 import './Login.css';
-import { Button, Navbar } from 'react-bootstrap';
-import { BiLike } from "react-icons/bi";
-import { BsGrid, BsChat, BsEye, BsHeart, BsBell, BsThreeDots, BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import { FcFlashOn, FcGallery } from "react-icons/fc";
-import { GrClose } from "react-icons/gr";
-import { FiMinus } from "react-icons/fi";
-import { RiFacebookCircleFill } from "react-icons/ri";
 import { FaApple, FaGooglePlay, FaChevronDown, FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import appstore from '../img/appstore.png'
 import googleplay from '../img/googleplay.png'
-
+import {Link} from 'react-router-dom';
 const Login = () => {
     return (
         <div className="loginContainer">
@@ -55,7 +47,6 @@ const Login = () => {
                         <span><a href="#">Ablo-parler à de nouvelles personnes dans le monde entier</a></span>
                         </div>
             </div>
-
             </div>
 
             <div className="loginRightSide">
@@ -75,7 +66,9 @@ const Login = () => {
                         <label>Mot de passe</label><br/>
                         <input></input> <br/>
                     </form>
-                    <button className="loginFormBtn" href="#">Connecte-toi</button>
+                    <Link to="/about">
+                    <button id="loginFormBtn" >Connecte-toi</button>
+                    </Link>
                     <p><a href="#">Mot de passe oublié</a></p>
                     <p>Pas encore membre ? <a href="#">Inscris-toi</a></p>
                 </div>
@@ -83,13 +76,8 @@ const Login = () => {
                     <img src={appstore} width="150px" />
                     <img src={googleplay} width="150px" />
                 </div>
-                
             </div>
-
         </div>
-
-
-
     )
 }
 

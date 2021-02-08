@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import './About.css';
 
+
 const About = () => {
     return (
         <div className="aboutUser"> 
@@ -33,7 +34,9 @@ const About = () => {
                     <span>Non merci</span>
                 </div>
                 <div className="aboutUserBoxBtn">
+        
                     <a id="continuBtn">Continuer</a>
+                
                     <a><span id="stars">*</span>Champ est obligatoire</a>
                 </div>
                 
