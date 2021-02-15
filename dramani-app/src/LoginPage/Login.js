@@ -56,7 +56,9 @@ const Login = () => {
                         <option>English</option>
                         <option>Swahili</option>
                     </select>
-                    <a href="#">Inscris-toi</a>
+                    <Link to="/suscribe">
+                        <a href="#">Inscris-toi</a>
+                    </Link> 
                 </div>
                 <div className="loginFormBox">
                     <h6>OU CONNECTE TOI AVEC TON ADDRESSE E-MAIL</h6>
@@ -70,7 +72,8 @@ const Login = () => {
                     <button id="loginFormBtn" >Connecte-toi</button>
                     </Link>
                     <p><a href="#">Mot de passe oublié</a></p>
-                    <p>Pas encore membre ? <a href="#">Inscris-toi</a></p>
+                    <p>Pas encore membre ? <Link to="/suscribe"> <a href="#">Inscris-toi</a> </Link></p> 
+                    
                 </div>
                 <div className="appLink">
                     <img src={appstore} width="150px" />

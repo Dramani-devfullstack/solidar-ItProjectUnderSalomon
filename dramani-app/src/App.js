@@ -6,6 +6,7 @@ import './App.css';
 import Content from './ContentComponent/Content';
 import Login from './LoginPage/Login'
 import About from './AboutUser/About'
+import Suscribe from './Suscribe/Suscribe'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/content" component={Content} />
           <Route path="/login" component={Login} />
           <Route path="/about" component={About} />
+          <Route path="/suscribe" component={Suscribe} />
         </Switch>
         
     </Router>
